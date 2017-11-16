@@ -1,0 +1,106 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2017-11-16T14:06:36.045Z",
+	"__export_source": "insomnia.desktop.app:v5.11.7",
+	"resources": [
+		{
+			"_id": "wrk_5a5d636aae564747ae3751e5394e82ee",
+			"parentId": null,
+			"modified": 1510780875423,
+			"created": 1510780875423,
+			"name": "Insomnia",
+			"description": "",
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_1cda0da0de8e4dc9992dd152224aa4a2",
+			"parentId": "wrk_5a5d636aae564747ae3751e5394e82ee",
+			"modified": 1510780875427,
+			"created": 1510780875427,
+			"name": "Base Environment",
+			"data": {},
+			"color": null,
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_ebd86fd0e6dd4ef7b68f9feba30647a4",
+			"parentId": "wrk_5a5d636aae564747ae3751e5394e82ee",
+			"modified": 1510780875425,
+			"created": 1510780875425,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_3920fe3275544b8d926cc97679a3b2e6",
+			"parentId": "wrk_5a5d636aae564747ae3751e5394e82ee",
+			"modified": 1510841102482,
+			"created": 1510780898739,
+			"url": "http://127.0.0.1:5000/ge",
+			"name": "WithIds",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"doc1\":\"23424\",\n\t\"doc2\":\"9938\"\n}\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_5b86083ce2f84d988140f9c771c68708"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1510780898739,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_b8c1dcb79b36430290766d345824f727",
+			"parentId": "wrk_5a5d636aae564747ae3751e5394e82ee",
+			"modified": 1510840976309,
+			"created": 1510840967184,
+			"url": "http://127.0.0.1:5000/getdiff",
+			"name": "no json",
+			"description": "",
+			"method": "POST",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1510840967184,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_0a6725fbfa774145a52dc890c3327109",
+			"parentId": "wrk_5a5d636aae564747ae3751e5394e82ee",
+			"modified": 1510841127605,
+			"created": 1510841118628,
+			"url": "http://127.0.0.1:5000",
+			"name": "HealthCheck",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1510841118628,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		}
+	]
+}
